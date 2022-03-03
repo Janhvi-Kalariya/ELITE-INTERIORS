@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the_raw_composition</title>
+    <style>
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  /*background-color: black;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(241, 241, 241);
+}
+.container1 {
+  text-align: center;  
+  background-color: grey;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+.container2 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+}
+.section {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /*align-items: center;*/
+   width: 49%;
+   background-color: gray;
+   color: white;
+   margin-left: 95px;
+   /*margin: 40px 0;
+   border-radius: 8px;*/
+ }
+
+ .main {
+   text-align: center; 
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   background-color: grey;
+   margin-left: 90px;
+   /*margin: 40px 0;
+   border-radius: 8px;*/
+ }
+ 
+ #head {
+  text-align: center;
+  padding: 10px 10px 20px 20px;
+}
+
+#para {
+ text-align: center;
+ padding: 20px 20px;
+ font-size: large;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+ width: 20%;
+ height: 70%;
+ border: 2px solid black;
+ border-radius: 100%;
+ margin-left: 50px;
+ background-color: #AA8347;
+ justify-content: space-around;
+ background-image: url('images/woodtexture.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;  
+background-size: cover;
+}
+.circle {
+ padding-top: 80px; 
+ 
+}
+.circle1 {
+ padding-top: 90px;   
+}
+#head {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+
+}
+    </style>
+</head>
+<body>
+    <section class="container1">
+        <div class="main">
+            <div class="section">
+                <h2 id="head">
+                    SERVICES
+                </h2>
+                <p id="para">We are providing exclusive and luminious interior design for your all kind of requirements. We provide total customized planning of your requirements and accordingly design your comfort space and provide you with floor plans, designs, elevation views, 3D views and almost evrything you may need.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container2">
+        <div class="box">
+            <div class="circle1">
+               <h3 id="head">PLANNING</h3>
+            </div>
+        </div>
+        <div class="box">    
+            <div class="circle">
+                <h3 id="head">ELEVATION <BR>DESIGNING</h3>
+            </div>
+        </div>
+        <div class="box">   
+            <div class="circle">
+                <h3 id="head">INTERIOR<BR>DESIGNING</h3>
+             </div>
+        </div>
+        <div class="box">     
+             <div class="circle">
+                 <h3 id="head">3D<BR>VISUALIZATION</h3>
+             </div>
+        </div>     
+        </div>
+    </section>
+    
+</body>
+</html>

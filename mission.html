@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+   width: 100vw;
+   height: 100vh;
+   background-color: rgb(241, 241, 241);
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   /*bgimg
+   background-image: url('images/lamp.jpg');*/
+   background-repeat: no-repeat;
+   background-attachment: fixed;  
+   background-size: cover;
+ }
+ 
+ 
+ .section {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   /*align-items: center;*/
+   width: 80%;
+   color: black;
+   margin-left: 90px;
+   /*margin: 40px 0;
+   border-radius: 8px;*/
+ }
+
+ .main {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   width: 65%;
+   color: white;
+   margin-left: 90px;
+   /*margin: 40px 0;
+   border-radius: 8px;*/
+ }
+ 
+ #head {
+  text-align: start;
+  padding: 10px 10px 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#para {
+ text-align: justify;
+ padding: 20px 20px;
+ font-size: x-large;
+ font-family: Arial, Helvetica, sans-serif;
+}
+    </style>
+</head>
+<body>
+  <section>
+    <div class="main">
+    <div class="section">
+       <h2 id="head">
+           MISSION
+       </h2>
+       <p id="para">It's our mission to constantly pursue fresh inspiration. Our designers continually search for the most compelling design styles and highest quality of materials available.
+         Hours of extensive market research allow us to create each design specific to your target market. We take pride in our work ethic, our pride for innovative designs, and our commitment to our clients. 
+       </p>
+    </div>
+    </div>
+    </section>
+    <section>
+    <div class="main">
+    <div class="section">
+        <h2 id="head">
+            VISION
+        </h2>
+        <p id="para">Our vission aim to translate the client's ideas and the professional holistic vision in a renovated space combining aesthetics, comfort and practicality. The objective is to arrange the space to optimize the zones with a precise style which corresponds to the needs, the personality and the specific taste of the owner.</p>
+    </div>
+    </div>
+  </section>
+</body>
+</html>
